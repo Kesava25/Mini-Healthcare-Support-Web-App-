@@ -32,12 +32,6 @@ https://mini-healthcare-support-web-app-eta.vercel.app/
 
 ---
 
-## 📸 Project Screenshot
-
-![Mini Healthcare Support Web App](images/ui.png)
-
----
-
 ## 🛠 How to Run
 1. Download or clone this repository  
 2. Open `index.html` in any browser  
@@ -45,3 +39,8 @@ https://mini-healthcare-support-web-app-eta.vercel.app/
 ---
 
 ## 📂 Project Structure
+Mini-Healthcare-Support-Web-App-
+│── index.html
+│── style.css
+│── script.js
+│── README.md
