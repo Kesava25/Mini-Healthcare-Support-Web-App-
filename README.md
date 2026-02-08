@@ -37,10 +37,3 @@ https://mini-healthcare-support-web-app-eta.vercel.app/
 2. Open `index.html` in any browser  
 
 ---
-
-## 📂 Project Structure
-Mini-Healthcare-Support-Web-App-
-│── index.html
-│── style.css
-│── script.js
-│── README.md
