@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mini Healthcare Support App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>Healthcare Support Portal</h1>
+<p>For Patients & Volunteers (NGO Support)</p>
+
+<div class="container">
+
+  <!-- FORM SECTION -->
+  <div class="form-box">
+    <h2>Support / Volunteer Form</h2>
+
+    <form id="supportForm">
+      <label>Name</label>
+      <input type="text" id="name" required />
+
+      <label>Email</label>
+      <input type="email" id="email" required />
+
+      <label>Role</label>
+      <select id="role">
+        <option>Patient</option>
+        <option>Volunteer</option>
+        <option>Contact</option>
+      </select>
+
+      <label>Message</label>
+      <textarea id="message" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <!-- CHATBOT SECTION -->
+  <div class="chat-box">
+    <h2>Healthcare FAQ Chatbot 🤖</h2>
+    <div id="chatArea" class="chat-area"></div>
+
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Ask about medicine, food, doctor, volunteer..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
